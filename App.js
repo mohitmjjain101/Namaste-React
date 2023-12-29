@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const heading = React.createElement(
   "h1",
   { id: "heading", className: "head" },
@@ -25,9 +28,8 @@ const parent = React.createElement(
   { id: "parent" },
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", {}, "I am h1 tag"),
-    React.createElement("p1", {}, "I am para"),
+    React.createElement("p", {}, "I am para"),
   ])
 );
 
 root.render(parent);
-console.log(parent);
