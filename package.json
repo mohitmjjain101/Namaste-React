@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/mohitmjjain101/Namaste-React#readme",
   "devDependencies": {
-    "parcel": "^2.8.3",
-    "process": "^0.11.10"
+    "parcel": "^2.8.3"
   },
   "dependencies": {
     "react": "^18.2.0",
